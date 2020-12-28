@@ -1,0 +1,29 @@
+body {
+  background-color: gray;
+}
+.container {
+  background-color: white;
+  border-radius: 5px;
+  padding: 4px;
+  margin: 4px;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 98%;
+}
+#header {
+  top: 0;
+  position: sticky;
+}
+
+#nav {
+  position: sticky;
+  display: inline;
+}
+
+#sidebar {
+  display: inline;
+
+  overflow: scroll;
+}
