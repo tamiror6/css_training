@@ -18,12 +18,14 @@ body {
 }
 
 #nav {
+  vertical-align: top;
   position: sticky;
-  display: inline;
+  display: inline-block;
+  width: 32%;
 }
 
 #sidebar {
-  display: inline;
-
+  display: inline-block;
   overflow: scroll;
+  width: 65%;
 }
