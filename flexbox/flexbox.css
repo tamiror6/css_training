@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: gray;
+}
+
+/* basic structure of box */
+.item {
+  background-color: white;
+  border-radius: 5px;
+  margin: 5px;
+  padding-left: 10px;
+}
+
+/* all inside here */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* all parts of the column */
+header {
+}
+footer {
+}
+
+.inner-container {
+  flex: 1; /* takes the remaining height of the "container" div ??? */
+  display: flex;
+  overflow: auto;
+}
+
+nav {
+  flex-grow: 1;
+}
+aside {
+  flex-grow: 2;
+  overflow: auto;
+}
