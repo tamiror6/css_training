@@ -1,0 +1,123 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.classic-font {
+  color: var(--wsr-text-color-primary, #162d3d);
+  font-family: var(
+      --wsr-font-family,
+      HelveticaNeueW01-45Ligh,
+      HelveticaNeueW02-45Ligh,
+      HelveticaNeueW10-45Ligh
+    ),
+    "Helvetica Neue", "Helvetica", "Arial", "\30E1\30A4\30EA\30AA", "meiryo",
+    "\30D2\30E9\30AE\30CE\89D2\30B4 pro w3", "hiragino kaku gothic pro",
+    "sans-serif";
+}
+
+/*start header style*/
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fbf0e9;
+}
+.stopper {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 25px;
+}
+.stopper b {
+  color: #ff784b;
+}
+.stopper span {
+  font-size: larger;
+}
+.header-text {
+  margin: 0;
+  font-size: 48px;
+  color: var(--wsr-text-color-primary, #162d3d);
+}
+.header-guarantee-message {
+  font-size: 20px;
+}
+.header-guarantee-message span {
+  color: #ff784b;
+  font-weight: bold;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.tabs li {
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 10px 10px 0px 0px;
+  margin-left: -18px;
+  background-color: #f3d2bc;
+}
+li.chosen-tab {
+  background-color: white;
+  z-index: 1;
+  color: #ff784b;
+}
+
+/*end header style*/
+
+/*main - table a*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.table-wrapper {
+  width: 60%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+.table-wrapper div {
+  display: flex;
+  border: 1px solid #dfe5eb;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/*button*/
+.select-button {
+  background-color: #fff;
+  border: 1px solid #3899ec;
+  color: #3899ec;
+  font-size: large;
+  border-radius: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.select-button:hover {
+  background-color: #3899ec;
+  color: white;
+}
+.select-button:active {
+  font-size: 150%;
+}
+button:focus {
+  outline: 0;
+}
+
+/*footer*/
+
+footer {
+  background-color: floralwhite;
+  display: flex;
+}
